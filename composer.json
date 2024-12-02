@@ -22,7 +22,7 @@
         "basecodeoy/datobs": "^1.0",
         "illuminate/contracts": "^11.0",
         "illuminate/support": "^11.0",
-        "laminas/laminas-soap": "^2.13",
+        "laminas/laminas-soap": "^2.14",
         "nesbot/carbon": "^3.8.2",
         "saloonphp/cache-plugin": "^3.0",
         "saloonphp/laravel-plugin": "^3.5",
@@ -33,7 +33,7 @@
         "spatie/laravel-data": "^4.11.1"
     },
     "require-dev": {
-        "basecodeoy/standards": "^1.0.5"
+        "basecodeoy/standards": "^1.1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
