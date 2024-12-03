@@ -1,0 +1,146 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Common\\\\Actions\\\\GenerateSoapBody\\:\\:execute\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Common/Actions/GenerateSoapBody.php
+
+		-
+			message: "#^Variable method call on BaseCodeOy\\\\Saloon\\\\Common\\\\Support\\\\MockSoapClient\\.$#"
+			count: 1
+			path: src/Common/Actions/GenerateSoapBody.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: src/Common/Connectors/AbstractConnector.php
+
+		-
+			message: "#^Call to an undefined method Saloon\\\\Http\\\\Request\\:\\:body\\(\\)\\.$#"
+			count: 3
+			path: src/Common/Connectors/AbstractMicroserviceConnector.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Common\\\\Connectors\\\\AbstractMicroserviceConnector\\:\\:resolveBaseUrl\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Common/Connectors/AbstractMicroserviceConnector.php
+
+		-
+			message: "#^Method class@anonymous/src/Common/Traits/HasCursorPaginationTrait\\.php\\:21\\:\\:getNextCursor\\(\\) should return int\\|string but returns mixed\\.$#"
+			count: 1
+			path: src/Common/Connectors/AbstractMicroserviceConnector.php
+
+		-
+			message: "#^Method class@anonymous/src/Common/Traits/HasCursorPaginationTrait\\.php\\:21\\:\\:getPageItems\\(\\) should return array\\<int\\|string, mixed\\> but returns mixed\\.$#"
+			count: 1
+			path: src/Common/Connectors/AbstractMicroserviceConnector.php
+
+		-
+			message: "#^Parameter \\#1 \\$token of class Saloon\\\\Http\\\\Auth\\\\TokenAuthenticator constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/Common/Connectors/AbstractMicroserviceConnector.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 1
+			path: src/Common/Connectors/AbstractMicroserviceConnector.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Common\\\\Requests\\\\AbstractMicroserviceRequest\\:\\:defaultBody\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractMicroserviceRequest.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Common\\\\Requests\\\\AbstractMicroserviceRequest\\:\\:getMethodData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractMicroserviceRequest.php
+
+		-
+			message: "#^Call to an undefined method Saloon\\\\Http\\\\Request\\:\\:body\\(\\)\\.$#"
+			count: 3
+			path: src/Common/Requests/AbstractMicroserviceRequestWithPagination.php
+
+		-
+			message: "#^Method class@anonymous/src/Common/Traits/HasCursorPaginationTrait\\.php\\:21\\:\\:getNextCursor\\(\\) should return int\\|string but returns mixed\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractMicroserviceRequestWithPagination.php
+
+		-
+			message: "#^Method class@anonymous/src/Common/Traits/HasCursorPaginationTrait\\.php\\:21\\:\\:getPageItems\\(\\) should return array\\<int\\|string, mixed\\> but returns mixed\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractMicroserviceRequestWithPagination.php
+
+		-
+			message: "#^Parameter \\$connector of class class@anonymous/src/Common/Traits/HasCursorPaginationTrait\\.php\\:21 constructor expects Saloon\\\\Http\\\\Connector, \\$this\\(BaseCodeOy\\\\Saloon\\\\Common\\\\Requests\\\\AbstractMicroserviceRequestWithPagination\\) given\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractMicroserviceRequestWithPagination.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractMicroserviceRequestWithPagination.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Common\\\\Requests\\\\AbstractSoapRequest\\:\\:createSoapBody\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Common/Requests/AbstractSoapRequest.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Data\\\\Casts\\\\FloatCast\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/FloatCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Data\\\\Casts\\\\IntegerCast\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/IntegerCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Data\\\\Tonic\\\\ListRequestData\\:\\:__construct\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Data/Tonic/ListRequestData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Data\\\\Tonic\\\\ListRequestData\\:\\:__construct\\(\\) has parameter \\$filters with generic class Spatie\\\\LaravelData\\\\DataCollection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/Tonic/ListRequestData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Data\\\\Tonic\\\\ListRequestData\\:\\:__construct\\(\\) has parameter \\$relationships with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Data/Tonic/ListRequestData.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Saloon\\\\Data\\\\Tonic\\\\ListRequestData\\:\\:__construct\\(\\) has parameter \\$sorts with generic class Spatie\\\\LaravelData\\\\DataCollection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/Tonic/ListRequestData.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php
